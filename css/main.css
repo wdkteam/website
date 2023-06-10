@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
 
 :root {
-  --main-font: 'Manrope', sans-serif;
+  --main-font: "Manrope", sans-serif;
   --main-font-style: 400;
   --bold-font-style: 500;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
 
 header {
-   padding: 2% 5%;
-   margin-top: 2%;
-   margin-left: 2%;
-   }
+  padding: 2% 5%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
 
 header div {
   margin: 0;
   font-family: var(--main-font);
   font-weight: var(--bold-font-style);
   font-size: 2.5rem;
-  }
+}
 
 main {
   padding: 2% 5%;
-   margin-top: 5rem;
-   margin-left: 2%;
+  margin-top: 5rem;
+  margin-left: 2%;
 }
 
 main div {
   font-family: var(--main-font);
   font-weight: var(--main-font-style);
   line-height: 117%;
-  
+
   font-size: 3rem;
 }
 
@@ -53,13 +54,13 @@ button {
 
   font-family: var(--main-font);
   font-weight: var(--main-font-style);
-  
+
   font-size: 1.5rem;
 }
 
 button:hover {
   color: var(--hover-text);
-  transform: translate(-0.25rem,-0.25rem);
+  transform: translate(-0.25rem, -0.25rem);
   background: var(--hover-bg);
   box-shadow: 0.25rem 0.25rem var(--bg);
 }
@@ -76,11 +77,11 @@ footer {
   width: 100%;
 
   padding: 2% 5%;
-   margin-top: 10%;
-   margin-left: 2%;
+  margin-top: 10%;
+  margin-left: 2%;
 
   font-family: var(--main-font);
   font-weight: var(--main-font-style);
-  
+
   font-size: 1rem;
-     }
+}
