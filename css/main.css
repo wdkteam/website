@@ -39,9 +39,15 @@ main div {
   font-size: 3rem;
 }
 
+.forms {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
 /* inspired form gumroad website */
 button {
-  margin-top: 2.5rem;
   --bg: #000;
   --hover-bg: #ff90e8;
   --hover-text: #000;
@@ -70,18 +76,7 @@ button:active {
   box-shadow: none;
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-
-  padding: 2% 5%;
-  margin-top: 10%;
-  margin-left: 2%;
-
-  font-family: var(--main-font);
-  font-weight: var(--main-font-style);
-
-  font-size: 1rem;
+.behance-icon {
+  width: 2rem; /* Измените значение на нужный размер */
+  height: 2rem; /* Измените значение на нужный размер */
 }
